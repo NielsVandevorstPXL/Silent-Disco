@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Silent Disco</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/Silent-Logo.png" alt="logo"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="tickets.html">TICKETS</a></li>
+                <li><a href="reviews.html">Certificate</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Placeholder Texte</h1>
+</section>
+
+<!----- Placeholder ----->
+<section class="blog-content">
+
+    <div class="blog-left">
+        <img src="images/certificate1.jpg" alt="certificate">
+        <h2>Reviews</h2>
+        <p>Have you recently attended a silent disco event and had an unforgettable time? We would love to hear about your experience!
+            <br>
+            Leaving a review about your silent disco experience can help others make informed decisions about future events and provide valuable feedback for the organizers. It only takes a few minutes to write a review, and it can make a big impact.
+            <br>
+            To leave a review, just fill in the form below. Alternatively, you can leave a review on our social media platforms like Facebook or instagram, or on event listing websites like Eventbrite or Bandsintown.
+            <br>
+            We appreciate your support and look forward to reading your thoughts on the silent disco event you attended. Thank you for taking the time to leave a review!</p>
+    </div>
+    <div class="comment-box">
+
+        <h3>Leave a comment</h3>
+
+        <form class="comment-form">
+            <label>
+                <input type="text" placeholder="Enter Name">
+            </label>
+            <label>
+                <input type="email" placeholder="Enter Email">
+            </label>
+            <label>
+                <textarea rows="5" placeholder="Your comment"></textarea>
+            </label>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>
+</section>
+
+
+<!----- Footer -------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>"Social media creates communities"</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Dream Team </p>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!------ JavaScript for Toggle Menu----- -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+<script src="https://kit.fontawesome.com/d6e6fb8158.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
